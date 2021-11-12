@@ -1,0 +1,43 @@
+@media only screen and (max-width: 617px) {
+    #band{
+        width:100%
+    }
+    #band .images{
+        flex-direction: column;
+        text-align: center;
+    }
+    #tour #book_dates {
+        width: 97%;
+    
+    }
+    #tour #place_image {
+        width: 99%;
+        flex-direction: column;
+        text-align: center;
+    }
+    #contact .btn {
+        width: 97%;
+    }
+    #contact input {
+        width: 96%;
+    }
+    #navbar #icon {
+        display: block;
+        position: absolute;
+        right: 19px;
+        top: 11px;
+    }
+    #navbar #real_nav {
+        display: none;
+        flex-direction: column;
+    }
+    #navbar #real_nav li {
+
+        padding: 19px 15px;
+        padding-right: 75px;
+    }
+    #navbar {
+        
+        flex-direction: column;  
+    }
+  }

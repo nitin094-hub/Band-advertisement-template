@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    top: 0;
+}
+h1,h2,h3{
+    
+    font-family: -webkit-pictograph;
+}
+#navbar{
+    display: flex;
+    background-color: black;
+}
+#navbar #logo{
+    color: aliceblue;
+}
+#navbar #real_nav{
+    display: flex;
+    align-items: center;
+}
+#navbar #real_nav li{
+    list-style: none;
+    padding: 5px 15px;
+}
+#navbar #real_nav li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#navbar #icon{
+    height: 48px;
+    width: 47px;
+    display: none;
+}
+#home{
+
+    height: 677px;
+    position: relative;
+}
+#home::before{
+    content: '';
+    background-image: url('https://www.w3schools.com/w3images/chicago.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+#home .home-content{
+    position: absolute;
+    bottom: 9px;
+    text-align: center;
+    /* left: 40%; */
+    width:100%
+}
+#home h3{
+    color: aliceblue;
+    font-family: -webkit-pictograph;
+}
+#home p{
+    color: aliceblue;
+    font-family: -webkit-pictograph;
+    font-weight: 200;
+}
+#band{
+    /* border: 2px solid rebeccapurple; */
+    width: 594px;
+    margin: 55px auto;
+    
+}
+#band h1{
+    text-align: center;
+    font-family: -webkit-pictograph;
+
+}
+#band p{
+    text-align: center;
+    font-family: -webkit-pictograph;
+    padding: 11px 2px;
+}
+#band .images{
+    display: flex;
+    justify-content: space-evenly;
+}
+#band .images h3{
+    font-family: -webkit-pictograph;
+    text-align: center;
+}
+#band .images  img{
+    width: 156px;
+    height: 156px;
+}
+#tour{
+    /* border: 2px solid rebeccapurple; */
+    /* height: 200px; */
+    position: relative;
+    padding-bottom:10px;
+}
+#tour::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#tour h1{
+    text-align: center;
+    /* border: 2px solid red; */
+    color: aliceblue;
+    font-family: -webkit-pictograph;
+
+}
+#tour #book_dates{
+    width: 539px;
+    /* border: 2px solid rebeccapurple; */
+    background-color: white;
+    margin: auto;
+    padding: 8px;
+}
+#tour #book_dates .dates{
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom:7px ;
+    padding-top: 5px;
+}
+#tour #place_image{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 557px;
+    margin: auto;
+    background-color: aliceblue;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 47px;
+}
+#tour #place_image img{
+    width: 175px;
+    height: 156px;
+}
+#contact h1{
+    text-align: center;
+}
+#contact input{
+    display: block;
+    width: 443px;
+    text-align: center;
+    margin: 9px auto;
+}
+#contact .btn{
+    display: block;
+    width: 454px;
+    text-align: center;
+    margin: 9px auto;
+    background-color: black;
+    color: azure;
+    cursor: pointer;
+}
+#contact .btn:hover{
+    background-color: azure;
+    color: black;
+    
+}
+#loc{
+    text-align: center;
+    margin: 33px;
+}
+#loc .location{
+    margin: 8px;
+}
